@@ -1,0 +1,97 @@
+/* styles.css - Challenge #1 (Skeleton) */
+.container {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: aliceblue;
+    color: black;
+    margin: 0 auto !important;
+    width: 90%;
+    max-width: 800px; 
+}
+.site-header {
+    text-align: center;
+    color: red;
+    padding: 5px;
+    
+
+}
+.site-header h1 .park-name {
+    font-weight: 800;
+}
+.tagline{
+    color: saddlebrown;
+    font-style: italic;
+}
+.about h2 {
+    padding: 10px;
+    color: #3a332d;
+    margin-bottom: 10px;
+}
+.about p {
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.mascot-placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 15px;
+    max-width: 280px;
+}
+.mascot-placeholder img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.actions button {
+    color: white;
+    font-weight: 500;
+    font-size: 25px;
+    border: none;
+    border-radius: 12px; 
+    cursor: pointer;   
+    transition: background-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+
+}
+.buy-tickets {
+    background-color: greenyellow;
+}
+.buy-tickets:hover {
+    background-color: green;     
+    transform: translateY(-3px);
+    box-shadow: 0 8px 14px rgba(0, 0, 0, 0.25);
+}
+.make-donation {
+    background-color: blue; 
+}
+ 
+.make-donation:hover {
+    background-color: blueviolet;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 14px rgba(0, 0, 0, 0.25);
+}
+
+.actions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 10px;
+}
+.site-footer {
+    padding: 10px;    
+    border-top: 1px solid lightgray;
+    text-align: center;
+}
+.site-footer p {
+    font-size: 10px;
+    color: grey;
+}
